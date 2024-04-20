@@ -7,7 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "keywords": ["RSS", "DAM", "Samuel", "Ejercicio", "Informática"],
+  "keywords": [
+    "RSS",
+    "DAM",
+    "Samuel",
+    "Ejercicio",
+    "Informática"
+  ],
   "author": "Samuel Vergara Martín",
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
