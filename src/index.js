@@ -1,5 +1,5 @@
 const express = require('express');
-const phpExpress = require('php-express');
+const phpExpress = require('php-express')();
 const port = 8080;
 const app = express();
 
