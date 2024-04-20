@@ -17,6 +17,7 @@
   "author": "Samuel Vergara Martín",
   "license": "CC0-1.0",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "php-express": "^0.0.3"
   }
 }
