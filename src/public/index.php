@@ -42,7 +42,7 @@
             switch($targeted_source) {
                 case mainPage: echo mainPageCode;
                 break;
-                case part1Page: include("./pages/exercisepart1.html");
+                case part1Page: include("./pages/exercisepart1.php");
                 break;
                 case part2Page: include("./pages/exercisepart2.html");
                 break;
