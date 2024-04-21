@@ -8,8 +8,14 @@
 
     if(isset($_GET['source'])) {
         switch($_GET['source']) {
-            case "main": $targeted_source = "main";
-            case "other": $targeted_source = "other";
+            case "main": $targeted_source = "mainPage";
+            break;
+            case "exRSSPart1": $targeted_source = "part1Page";
+            break;
+            case "exRSSPart2": $targeted_source = "part2Page";
+            break;
+            default: $targeted_source = "mainPage";
+            break;
         }
     }
     else $targeted_source = "mainPage";
@@ -33,7 +39,14 @@
 <body>
     <?php 
         if($mode == normalMode) {
-            echo normalCode;
+            switch($targeted_source) {
+                case "mainPage": echo normalCode;
+                break;
+                case "part1Page": echo normalCode;
+                break;
+                case "part2Page": echo normalCode;
+                break;
+            }
         }
         if($mode == maintenanceMode) {
             echo maintenanceCode;
