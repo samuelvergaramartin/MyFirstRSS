@@ -1,6 +1,6 @@
 <?php 
     require("./config/modes.php");
-    require("./config/routes.php");
+    //require("./config/routes.php");
     require("./config/codes.php");
     require("./config/styles.php");
 
