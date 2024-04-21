@@ -1,7 +1,10 @@
 const express = require('express');
 const phpExpress = require('php-express')();
-const port = 8080;
+var port;
 const app = express();
+const { spawn } = require('child_process');
+
+spawn("./portReader.sh").stdout.on("data", (data) => port = data);
 
 app.engine('php', phpExpress.engine);
 app.set('views', '.');
