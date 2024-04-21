@@ -42,9 +42,9 @@
             switch($targeted_source) {
                 case mainPage: echo mainPageCode;
                 break;
-                case part1Page: echo mainPageCode;
+                case part1Page: echo maintenanceCode;
                 break;
-                case part2Page: echo mainPageCode;
+                case part2Page: echo maintenanceCode;
                 break;
             }
         }
