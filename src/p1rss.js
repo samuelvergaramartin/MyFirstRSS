@@ -37,10 +37,10 @@
         enlace.textContent = 'Leer más';
 
         // Crear una imagen con el estilo definido
-        var imagen = document.createElement('img');
+        /*var imagen = document.createElement('img');
         imagen.src = item.thumbnail;
         imagen.alt = item.title;
-        imagen.classList.add('feed-image');
+        imagen.classList.add('feed-image');*/
 
         var descripcion = document.createElement('p');
         descripcion.innerHTML = item.description;
@@ -48,7 +48,7 @@
         var separador = document.createElement('hr');
 
         // Agregar elementos al contenedor del artículo
-        contenedorArticulo.appendChild(imagen);
+        //contenedorArticulo.appendChild(imagen);
         contenedorArticulo.appendChild(titulo);
         contenedorArticulo.appendChild(descripcion);
         contenedorArticulo.appendChild(enlace);
