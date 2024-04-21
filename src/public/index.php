@@ -1,6 +1,6 @@
 <?php 
     require("./config/modes.php");
-    //require("./config/routes.php");
+    require("./config/routes.php");
     require("./config/codes.php");
     require("./config/styles.php");
 
@@ -8,17 +8,17 @@
 
     if(isset($_GET['source'])) {
         switch($_GET['source']) {
-            case "main": $targeted_source = "mainPage";
+            case "main": $targeted_source = mainPage;
             break;
-            case "exRSSPart1": $targeted_source = "part1Page";
+            case "exRSSPart1": $targeted_source = part1Page;
             break;
-            case "exRSSPart2": $targeted_source = "part2Page";
+            case "exRSSPart2": $targeted_source = part2Page;
             break;
-            default: $targeted_source = "mainPage";
+            default: $targeted_source = mainPage;
             break;
         }
     }
-    else $targeted_source = "mainPage";
+    else $targeted_source = mainPage;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -40,11 +40,11 @@
     <?php 
         if($mode == normalMode) {
             switch($targeted_source) {
-                case "mainPage": echo normalCode;
+                case mainPage: echo normalCode;
                 break;
-                case "part1Page": echo normalCode;
+                case part1Page: echo normalCode;
                 break;
-                case "part2Page": echo normalCode;
+                case part2Page: echo normalCode;
                 break;
             }
         }
