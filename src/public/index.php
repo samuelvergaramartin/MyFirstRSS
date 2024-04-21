@@ -10,6 +10,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php echo mainCSSStyle ?>
+    <?php 
+        if($mode == maintenanceMode) {
+            echo maintenanceCSSStyle;
+        }
+        if($mode == normalMode) {
+            echo normalCSSStyle;
+        }
+    ?>
     <title>Ejercicio RSS</title>
 </head>
 <body>
