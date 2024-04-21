@@ -52,6 +52,5 @@
             echo maintenanceCode;
         }
     ?>
-    <?php echo $targeted_source ?>
 </body>
 </html>
