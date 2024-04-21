@@ -40,11 +40,11 @@
     <?php 
         if($mode == normalMode) {
             switch($targeted_source) {
-                case mainPage: echo normalCode;
+                case mainPage: echo mainPageCode;
                 break;
-                case part1Page: echo normalCode;
+                case part1Page: echo mainPageCode;
                 break;
-                case part2Page: echo normalCode;
+                case part2Page: echo mainPageCode;
                 break;
             }
         }
