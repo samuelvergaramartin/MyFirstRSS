@@ -8,7 +8,12 @@ app.set('views', '.');
 app.set('view engine', 'php');
 app.all(/.+\.php$/, phpExpress.router);
 
-app.use("/", (req, res) => res.render("src/public/index"));
+app.use("/", (req, res) => {
+    const parametros = req.query;
+    res.render("src/public/index", {
+        parametros: parametros
+    });
+});
 
 app.listen(port, () => {
   console.log(`Servidor listo y escuchando en el puerto ` + port);
