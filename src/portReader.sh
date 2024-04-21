@@ -1,5 +1,5 @@
 #!/bin/bash
 
-lectura=$(grep "PORT=" server.conf)
+lectura=$(grep "PORT=" src/server.conf)
 result=${lectura#*=}
 echo $result
