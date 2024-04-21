@@ -12,7 +12,7 @@ app.get("/main.xml", (req, res) => {
     res.sendFile(__dirname + "/main.xml");
 });
 app.get("/loadRSS", (req, res) => {
-    res.sendFile(__dirname + "/p1rss.js");
+    res.sendFile(__dirname + "/renderer.js");
 });
 app.use("/", (req, res) => {
     const parametros = req.query;
