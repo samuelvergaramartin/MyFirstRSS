@@ -5,4 +5,5 @@
         <script src='test.js'></script>
     ";
 ?>
-<h1 id="titulo">Parte 1 RSS</h1>
+<h1 id="titulo">Ejercicio RSS Parte 1</h1>
+<a href="http://rss.samuelpc.local:8080/test">Link al RSS</a>
