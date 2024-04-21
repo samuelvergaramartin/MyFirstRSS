@@ -11,6 +11,9 @@ app.all(/.+\.php$/, phpExpress.router);
 app.get("/main.xml", (req, res) => {
     res.sendFile(__dirname + "/main.xml");
 });
+app.get("/test", (req, res) => {
+    res.sendFile(__dirname + "/test.js");
+});
 app.use("/", (req, res) => {
     const parametros = req.query;
     res.render("src/public/index", {
