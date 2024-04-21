@@ -3,6 +3,16 @@
     require("./config/routes.php");
     require("./config/codes.php");
     require("./config/styles.php");
+
+    $targeted_source;
+
+    if(isset($_GET['source'])) {
+        switch($_GET['source']) {
+            case "main": $targeted_source = "main";
+            case "other": $targeted_source = "other";
+        }
+    }
+    else $targeted_source = "mainPage";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -29,5 +39,6 @@
             echo maintenanceCode;
         }
     ?>
+    <?php echo $targeted_source ?>
 </body>
 </html>
