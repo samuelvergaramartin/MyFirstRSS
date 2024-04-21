@@ -44,7 +44,7 @@
                 break;
                 case part1Page: include("./pages/exercisepart1.php");
                 break;
-                case part2Page: include("./pages/exercisepart2.html");
+                case part2Page: include("./pages/exercisepart2.php");
                 break;
             }
         }
