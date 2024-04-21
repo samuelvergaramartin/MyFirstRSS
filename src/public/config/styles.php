@@ -11,20 +11,24 @@
         </style>
     ";
     const normalCSSStyle = "
-        #titulo {
-            color: cyan;
-            text-align: center;
-        }
-        
-        a {
-            font-size: 40px;
-            color: red;
-        }
+        <style>
+            #titulo {
+                color: cyan;
+                text-align: center;
+            }
+            
+            a {
+                font-size: 40px;
+                color: red;
+            }
+        </style>
     ";
     const maintenanceCSSStyle = "
-        h1 {
-            color: red;
-            text-align: center;
-        }
+        <style>
+            h1 {
+                color: red;
+                text-align: center;
+            }
+        </style>
     ";
 ?>
