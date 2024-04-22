@@ -1,6 +1,7 @@
 <?php 
     require("../config/styles.php");
     require("../config/modes.php");
+    require("../config/codes.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,8 +20,13 @@
     <title>RSS 1</title>
 </head>
 <body>
-    <h1 id="titulo">Ejercicio de RSS Parte 2</h1>
-    <div id='blog-feed'></div>
-    <script src=<?php echo $headerURL;?>/loadRSS></script>
+    <?php 
+        if($mode == normalCode) {
+            echo $rssPageCode;
+        }
+        if($mode == maintenanceCode) {
+            echo maintenanceCode;
+        }
+    ?>
 </body>
 </html>
