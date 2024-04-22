@@ -20,6 +20,7 @@
     <title>RSS 1</title>
 </head>
 <body>
+    <script>const rss = 1;</script>
     <?php 
         if($mode == normalMode) {
             echo $rssPageCode;
