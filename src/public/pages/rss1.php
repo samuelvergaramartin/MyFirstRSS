@@ -21,10 +21,10 @@
 </head>
 <body>
     <?php 
-        if($mode == normalCode) {
+        if($mode == normalMode) {
             echo $rssPageCode;
         }
-        if($mode == maintenanceCode) {
+        if($mode == maintenanceMode) {
             echo maintenanceCode;
         }
     ?>
