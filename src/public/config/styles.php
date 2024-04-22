@@ -38,4 +38,12 @@
             }
         </style>
     ";
+    const feedCSSStyle = "
+        <style>
+            #blog-feed {
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+        </style>
+    ";
 ?>
