@@ -1,7 +1,14 @@
  // URL del feed RSS (reemplaza con la URL de tu propio feed)
-     //var feedURL = 'https://aleare.com.ar/blog/feed/';
-     //var feedURL = 'https://exerciserss.netcathost.es/rss';
-   var feedURL = 'https://www.juntadeandalucia.es/educacion/portals/delegate/rss/ced/portalconsejeria/alumnado/-/-/false/OR/true/ishare_noticefrom/DESC/';
+     var feedURL;
+     switch(rss) {
+        case 1: feedURL = "https://www.juntadeandalucia.es/educacion/portals/delegate/rss/ced/portalconsejeria/alumnado/-/-/false/OR/true/ishare_noticefrom/DESC/";
+        break;
+        case 2: feedURL = "";
+        break;
+        case 3: feedURL = "";
+        break;
+        default: feedURL = "https://aleare.com.ar/blog/feed/";
+     }
  // Función para cargar el feed y mostrarlo en el contenedor
 
  function cargarFeed() {//
