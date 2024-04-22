@@ -17,6 +17,15 @@ setTimeout(() => {
     app.get("/loadRSS", (req, res) => {
         res.sendFile(__dirname + "/renderer.js");
     });
+    app.get("/rss1", (req, res) => {
+        res.render(__dirname + "/public/pages/rss1");
+    });
+    app.get("/rss2", (req, res) => {
+        res.render(__dirname + "/public/pages/rss2");
+    });
+    app.get("/rss3", (req, res) => {
+        res.render(__dirname + "/public/pages/rss3");
+    });
     app.use("/", (req, res) => {
         const parametros = req.query;
         res.render("src/public/index", {
