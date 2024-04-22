@@ -41,8 +41,19 @@
     const feedCSSStyle = "
         <style>
             #blog-feed {
-                margin-left: 100px;
-                margin-right: 100px;
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+            #blog-feed p {
+                text-align: left;
+                color: cyan;
+            }
+            #blog-feed li {
+                text-align: left;
+                color: cyan;
+            }
+            #blog-feed h2 {
+                color: orange;
             }
         </style>
     ";
