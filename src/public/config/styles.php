@@ -41,8 +41,8 @@
     const feedCSSStyle = "
         <style>
             #blog-feed {
-                margin-left: 30px;
-                margin-right: 30px;
+                margin-left: 100px;
+                margin-right: 100px;
             }
         </style>
     ";
