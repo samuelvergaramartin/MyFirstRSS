@@ -20,7 +20,6 @@
     <title>RSS 1</title>
 </head>
 <body>
-    <?php echo $headerURL; ?>
     <a href=<?php echo $headerURL; ?>/src/public/index.php?source=main>Volver a inicio</a> <br>
     <script>const rss = 1;</script>
     <?php 
