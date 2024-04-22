@@ -55,6 +55,9 @@
             #blog-feed h2 {
                 color: orange;
             }
+            #blog-feed a {
+                color: pink;
+            }
         </style>
     ";
 ?>
