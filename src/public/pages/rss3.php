@@ -2,7 +2,6 @@
     require("../config/styles.php");
     require("../config/modes.php");
     require("../config/codes.php");
-    require("../config/routes.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
