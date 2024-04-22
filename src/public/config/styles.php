@@ -18,7 +18,7 @@
             }
             
             a {
-                font-size: 40px;
+                font-size: 30px;
                 color: red;
             }
         </style>
