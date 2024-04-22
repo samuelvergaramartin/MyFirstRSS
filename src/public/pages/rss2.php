@@ -2,7 +2,6 @@
     require("../config/styles.php");
     require("../config/modes.php");
     require("../config/codes.php");
-    require("../config/modes.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +20,7 @@
     <title>RSS 2</title>
 </head>
 <body>
+    <?php echo $headerURL; ?>
     <a href=<?php echo $headerURL; ?>/src/public/index.php?source=main>Volver a inicio</a> <br>
     <script>const rss = 2;</script>
     <?php 
