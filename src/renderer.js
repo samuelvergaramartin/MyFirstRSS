@@ -43,12 +43,6 @@
         enlace.href = item.link;
         enlace.textContent = 'Leer más';
 
-        // Crear una imagen con el estilo definido
-        /*var imagen = document.createElement('img');
-        imagen.src = item.thumbnail;
-        imagen.alt = item.title;
-        imagen.classList.add('feed-image');*/
-
         var descripcion = document.createElement('p');
         descripcion.innerHTML = item.description;
 
