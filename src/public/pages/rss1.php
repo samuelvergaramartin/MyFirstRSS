@@ -21,6 +21,7 @@
 </head>
 <body>
     <a href=<?php echo $headerURL; ?>/src/public/index.php?source=main>Volver a inicio</a> <br>
+    <a href=<?php echo $headerURL; ?>/src/public/index.php?source=exRSSPart2>Volver atrás</a> <br>
     <script>const rss = 1;</script>
     <?php 
         if($mode == normalMode) {
