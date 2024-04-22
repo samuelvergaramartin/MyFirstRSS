@@ -1,0 +1,23 @@
+{
+  "name": "myfirstrss",
+  "version": "0.1",
+  "description": "Mi primer ejercicio de RSS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "RSS",
+    "DAM",
+    "Samuel",
+    "Ejercicio",
+    "Informática"
+  ],
+  "author": "Samuel Vergara Martín",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "express": "^4.19.2",
+    "php-express": "^0.0.3"
+  }
+}

@@ -3,9 +3,6 @@ Mi primer RSS. Ejercicio de RSS. Grado superior de informática, Desarrollo Apli
 
 Hola! Este es mi primer ejercicio sobre sindicación de contenido del grado superior de informática que ando cursando.
 
-En estos momentos estoy desarrollando este ejercicio, si quieres ver los cambios en directo, puedes verlos en la rama de
-desarrollo de este mismo repositorio!
-
-Un saludo! Cuando este terminado este proyecto, lo publicaré en la rama principal del mismo! :D
+Este proyecto ya está finalizado. Listo para que lo corrija mi profesor de Lenguajes de Marcas
 
 Att: Samuel Vergara Martín
