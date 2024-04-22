@@ -8,4 +8,9 @@
     const maintenanceCode = "
         <h1>Página web en mantenimiento. Disculpe las molestias.</h1>
     ";
+    $rssPageCode = "
+        <h1 id='titulo'>Ejercicio de RSS Parte 2</h1>
+        <div id='blog-feed'></div>
+        <script src=$headerURL/loadRSS></script>
+    ";
 ?>
