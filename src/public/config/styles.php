@@ -31,4 +31,11 @@
             }
         </style>
     ";
+    const listsCSSStyle = "
+        <style>
+            .listados {
+                text-align: left;
+            }
+        </style>
+    ";
 ?>
