@@ -3,9 +3,9 @@
      switch(rss) {
         case 1: feedURL = "https://www.juntadeandalucia.es/educacion/portals/delegate/rss/ced/portalconsejeria/alumnado/-/-/false/OR/true/ishare_noticefrom/DESC/";
         break;
-        case 2: feedURL = "";
+        case 2: feedURL = "https://feeds.bbci.co.uk/news/world/rss.xml";
         break;
-        case 3: feedURL = "";
+        case 3: feedURL = "https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml";
         break;
         default: feedURL = "https://aleare.com.ar/blog/feed/";
      }
