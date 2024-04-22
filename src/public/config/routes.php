@@ -1,5 +1,5 @@
 <?php
-    require("./hosts.php");
+    require("./config/hosts.php");
     $lectura = file_get_contents("../server.conf");
     $posicion = strpos($lectura, 'PORT=');
     $port = substr($lectura, $posicion + 5);
@@ -10,7 +10,7 @@
     const part2Page = "part2Page";
 
     switch(host) {
-        case localhost: $headerURL = "http://rss.samuelpc.local" . $port;
+        case localhost: $headerURL = "http://rss.samuelpc.local:" . $port;
         break;
         case vpsWithoutCloudflareProxy: $headerURL = "https://exerciserss.netcathost.es:" . $port;
         break;
